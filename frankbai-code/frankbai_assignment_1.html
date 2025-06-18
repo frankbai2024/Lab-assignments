@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank Bai Assignment 01</title>
+</head>
+<body>
+  <form action="" onsubmit="alert('wellcome!')" 
+        style="border:1px solid black; 
+        padding:10px; width:300px; 
+        margin:20px auto;
+        background-color: rgb(230, 241, 237);"
+  >
+<!---   <div style="font-family: fantasy; font-size: xx-large; position: relative; ">    </div> --> 
+
+      <h1         align="center">Sign Up</h1>
+
+    <fieldset>
+      <legend> Your Basic Info</legend>
+        <div>
+            <label for="firstname">Your First Name:</label>
+            <div></div>
+            <input type="text" id="firstname" name="firstname" required autocomplete="on" >
+        </div>
+        <div>
+            <label for="lastname">Your Last Name:</label>
+            <div></div>
+            <input type="text" id="lastname" name="lastname" required autocomplete="off" >
+        </div>
+        <div>
+            <label for="email">Your email</label>
+            <div></div>
+            <input type="email" id="email" name="email" placeholder="enter your email" required autocomplete="off">
+        </div>  
+        <div>
+            <label for="">username</label> <div></div>
+            <input type="text" id="username" name="username" placeholder="maxlength 6" required autocomplete="off" maxlength="6"> <div></div>
+            <label for="">password</label> <div></div>
+            <input type="password" id="password" name="password" placeholder="minlength=4 and maxlength=6" required autocomplete="off" minlength="4" maxlength="6">
+        </div>
+    </fieldset>
+    <fieldset>
+      <legend>Other Details</legend>
+        <div>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">other</label>
+            <input type="radio" id="other" name="gender" value="other">
+          </div>
+        <div>
+            <label for="birthday">Your birthday</label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+    <div>
+      <label for="country">Where are you from</label>-
+      <select name="country" id="country">
+        <option value="china" >China</option>
+        <option value="australia" selected>Australia</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+        <option value="japan">Japan</option>
+      </select>
+    </div>
+    </fieldset>
+
+    <div>
+      <label for="comment">Introdue yourself</label>
+      <textarea name="comment" id="comment" cols="38" rows="3" maxlength="30" placeholder="no more than 30 words"></textarea>
+    </div>
+      <div>
+      <input type="checkbox" id="accept" name="accept" value="accepte" required>
+      <label for="accept">I'am accepting Terms and Conditions</label>
+    </div>
+    <div>
+      <input type="submit" value="Register" style="background-color: green;">
+      <input type="reset" value="Reset" style="background-color: red; color: white; border-radius: 5px; padding: 5px 10px;"onclick="alert('Input your info again')">
+    </div>
+  </form>
+  <nav>
+    <ul>
+      <li><a href="#hobby">hobby</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h1 id="hobby">Hobby</h1>
+    <p>My hobby is to play basketball, I like to play basketball with my friends.</p>
+    <p>My favorite team is <strong>Los Angeles Lakers</strong>, and my favorite player is <strong>LeBron James</strong>.</p>
+  </section>
+
+
+
+  <span>
+  <ol>
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+  </ol>
+  <ul>
+    <li><a href="http://google.com.au" target="_blank">google</a></li>
+    <li><a href="http://amazon.com.au" target="_blank">amazon</a></li>
+    <li><a href="http://seek.com.au" target="_blank">seek</a></li>
+  </ul>
+  </span>
+  <dl>
+    <dt>lesson1</dt>
+    <dd>html5</dd>
+    <dt>lesson2</dt>
+    <dd>css3</dd>
+    <dd>js</dd>
+  </dl>
+  <table align="center" border="1" cellpadding="5" cellspacing="0">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>gender</th>
+    </tr>
+    <tr>
+        <td>Frank</td>
+        <td>30</td>
+        <td>male</td>
+    <tr>
+        <td>Mary</td>
+        <td>25</td>
+        <td>female</td>
+    </tr>
+</table>
+  <h1>hello</h1>  
+  <h2>I am back</h2>
+
+  <p>how long can a <span style="color:blue"> man</span> keep silent <br>before he come back to do what he was good at
+  </p>
+  <div style="color:blue">how long <span style="color:blueviolet">can</span> a man</div>
+<span style="color: red;">come back to do</span>
+<span style="font-weight:900;font-size:large">come back to do</span>
+<span>come back to do</span>
+  <div>
+    <img src="image/duan-wu.jpg" alt="duan wu greeting" width="200" title="端午节快乐" style="border: 1px solid black; border-radius: 10px;">
+    <img src="image/zongzi-making.mp4" alt="Hands wrapping zongzi with bamboo leaves" width="200" height="100">
+
+<a href="http://www.google.com.au" target="_blank" title="jump to google">visit GOOGLE</a>
+<a href="image/zongzi-making.mp4" target="_blank"><img src="image/duan-wu.jpg" width="100" alt="zongzi download">visit zongzi</a>
+
+<a href="image/zongzi-making.zip" download="try downlond.zip">download zongzi <img src="image/duan-wu.jpg" width="100" alt="zongzi download">visit zongzi</a>
+<div>---------------------------------------------------------------------------------------------------------------------------------</div>
+  <!-- 测试TEST -->
+<div>
+      <input type="button" value="reset" onclick="document.getElementById('registration').reset();">
+</div>
+<div>
+            <input type="file">
+</div>
+    <footer>
+  <section>
+      <h1 id="contact">Contact</h1>
+          <p>You can contact me via email: <a href="mailto:111@gmail.com">email me</a></p>
+    <p>Or you can contact me via phone: <a href="tel:+1234567890">call me</a></p>
+   </section>
+  </footer>
+</body>
+</html>
