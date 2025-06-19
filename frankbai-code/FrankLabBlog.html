@@ -12,12 +12,13 @@
         padding: 0;
       }
       .banner {
-        background-color: #4caf50;
+        background-color: #223922;
         color: white;
         text-align: center;
         padding: 1em 0;
       }
       .info_box {
+        display: inline-block;
         background-color: #fff;
         border-radius: 5px;
         padding: 20px;
@@ -28,7 +29,9 @@
         font-size: 1.2em;
       }
       ul {
+        display: inline-block;
         list-style-type: lower-greek;
+        margin: 10px;
         padding: 0;
       }
       li {
@@ -58,18 +61,47 @@
   </head>
   <body>
     <div class="banner">
-      <h1>Frank's Blog</h1>
+      <h1>Welcom to Frank's Blog</h1>
     </div>
-    <div class="info_box">
-      <p class="content">
-        Welcome to my blog! Here you can find my latest posts and updates.
-      </p>
-    </div>
+    <!-- <div class="info_box"> -->
+    <!-- <p class="content"> -->
+    <!-- Welcome to my blog! Here you can find my latest posts and updates. -->
+    <!-- </p> -->
+    <!-- </div> -->
+    <!-- <span> -->
     <ul>
-      <li><a href="#">Post 1: Introduction to HTML</a></li>
-      <li><a href="#">Post 2: CSS Basics</a></li>
-      <li><a href="#">Post 3: JavaScript Fundamentals</a></li>
-      <li><a href="#">Post 4: Building a Portfolio</a></li>
+      <li><a href="#">Blog 1: </a></li>
+      <li><a href="#">Blog 2: </a></li>
+      <li><a href="#">Blog 3: </a></li>
+      <li><a href="#">About me:</a></li>
     </ul>
+    <span class="info_box">
+      <img
+        src="imgBlog/andy.jpg"
+        alt="andy"
+        style="width: 200px; height: 200px; border-radius: 50%"
+      />
+      <span class="content">
+        Andy Lau from Hong Kong is a famous actor and singer. He has starred in
+        many movies and is known for his charming personality.
+      </span>
+      <div></div>
+      <img
+        src="imgBlog/cat1.jpg"
+        alt="cat1"
+        style="width: 200px; height: 200px"
+      />
+      <span class="content">
+        I love cats! They are my favorite pets. Here is a picture of my cat.
+      </span>
+      <div class="content" style="text-align: center">About me</div>
+      <p>
+        Hello, I am Frank Bai, a software engineer with a passion for coding and
+        technology. This blog is where I share my thoughts and projects.
+      </p>
+    </span>
+    <footer class="banner">
+      <p>2025 Frank Bai. All rights reserved.</p>
+    </footer>
   </body>
 </html>
