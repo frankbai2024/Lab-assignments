@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  padding: 50px;
+}
+
+.container {
+  background: rgb(190, 213, 238);
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 10px 10px 10px rgba(5, 1, 10, 0.1);
+}
+
+#counts {
+  font-size: 60px;
+  margin: 20px 0;
+  color: #007acc;
+  transition: color 3s;
+}
+
+#hints {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background: #007acc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+}
