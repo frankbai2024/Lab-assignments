@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Performer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Top Performer</h1>
+      <form id="scoreForm">
+        <div class="row">
+          <input type="text" placeholder="Name 1" required />
+          <input type="number" min="0" max="10" placeholder="Score1" required />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Name 2" required />
+          <input type="number" min="0" max="10" placeholder="Score2" required />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Name 3" required />
+          <input type="number" min="0" max="10" placeholder="Score3" required />
+        </div>
+
+        <button type="submit">Show result</button>
+        <!-- <input type="submit" name="" id="" /> -->
+      </form>
+      <div id="resultBox" class="hidden">
+        <h2>Ranking</h2>
+        <ul id="resultList">
+          <li class="top">hello</li>
+          <li>world</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
